@@ -1,0 +1,22 @@
+body {
+    width: 1600px;
+    margin: 0;
+    padding: 0;
+}
+.main {
+   background-image: url(../../assets/images/GiantPanda.png);
+    background-repeat: no-repeat;
+    Height: 780px;
+}
+
+.ellipse {
+    position: absolute;
+    Width:465px;
+    Height: 465px;
+    Top: 92px;
+    Left: 807px;
+}
+
+nav {
+    display: flex;
+}

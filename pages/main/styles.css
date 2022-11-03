@@ -1,6 +1,6 @@
 body {
     width: 1600px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .main {
@@ -19,4 +19,31 @@ body {
 
 nav {
     display: flex;
+}
+
+.goal {
+    background-image: url(../../assets/images/flower_foto1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    /* margin: 0 20px 0 20px; */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.animals {
+    width: 30%;
+}
+
+.panda {
+    width: 100%;
+}
+
+.panda:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
 }
